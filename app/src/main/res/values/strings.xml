@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Waste categorization</string>
+    <string name="BACKEND_URL">https://de7a-180-248-58-192.ngrok-free.app</string>
+
+    <!-- DESCRIPTIONS -->
+    <string name="desc_IV_camera_view">Camera View</string>
+    <string name="desc_Btn_take_pict">Shot Button</string>
+    <string name="desc_Btn_upload">Upload Photo</string>
+</resources>
