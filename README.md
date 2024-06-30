@@ -1,0 +1,1 @@
+# app-waste-categorization-s
