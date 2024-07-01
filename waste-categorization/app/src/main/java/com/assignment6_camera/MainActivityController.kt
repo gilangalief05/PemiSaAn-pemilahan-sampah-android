@@ -86,11 +86,12 @@ class MainActivityController(private val context: Context, private val callback:
 
             executor.execute {
                 val httpHandler = HttpHandler()
-                val result : String = httpHandler.uploadImage(uploadImageApi, imageByteArray)
+                val classified : String = httpHandler.uploadImage(uploadImageApi, imageByteArray)
 
                 uiHandler.post {
-                    if (result != "no") {
-                        Toast.makeText(context, result, Toast.LENGTH_SHORT).show()
+                    if (classified != "no") {
+                        Toast.makeText(context, classified, Toast.LENGTH_SHORT).show()
+                        callback.showDescription(classified)
                     } else {
                         Toast.makeText(context, "Failed to upload image", Toast.LENGTH_SHORT).show()
                     }
