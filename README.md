@@ -1,1 +1,2 @@
-# app-waste-categorization-s
+# PemiSaAn-pemilahan-sampah-android
+2-8
