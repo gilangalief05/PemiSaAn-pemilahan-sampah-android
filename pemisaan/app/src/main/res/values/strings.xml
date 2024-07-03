@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Waste categorization</string>
-    <string name="BACKEND_URL">https://5782-110-138-165-166.ngrok-free.app</string>
+    <string name="app_name">PemiSaAn</string>
+    <string name="BACKEND_URL">https://8219-110-138-165-166.ngrok-free.app</string>
 
     <!-- DESCRIPTIONS -->
     <string name="desc_IV_camera_view">Camera View</string>
