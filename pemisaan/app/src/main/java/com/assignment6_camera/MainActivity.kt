@@ -182,7 +182,7 @@ class MainActivity : AppCompatActivity(), OnClickListener, MainActivityCallback 
                 explanation = "Unknown plastic is inorganic waste"
             }
             "Wood" -> {
-                explanation = "Wood is inorganic waste"
+                explanation = "Wood is organic"
             }
             "Zip plastic bag" -> {
                 explanation = "Zip plastic bag is inorganic waste"
@@ -191,7 +191,7 @@ class MainActivity : AppCompatActivity(), OnClickListener, MainActivityCallback 
                 explanation = "Plastic bottle is inorganic waste"
             }
             "Organic" -> {
-                explanation = "This waste is organic, better to place under tree"
+                explanation = "This waste is organic"
             }
             "Paper" -> {
                 explanation = "Paper is inorganic waste"
