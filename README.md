@@ -9,7 +9,7 @@
   Terbuat dari: AndroidStudio
   
 - backend
-- 
+  
   Berisi backend untuk keperluan POST gambar ke server untuk mendapatkan respon
   
   Library tambahan: flask, ngrok, roboflow
